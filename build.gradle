@@ -3,11 +3,10 @@
 buildscript {
     repositories {
         jcenter()
-
+        google()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.3.3'
-        classpath 'com.android.tools.build:gradle-experimental:0.9.3'
+        classpath 'com.android.tools.build:gradle:3.2.0'
         classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
         classpath 'me.tatarka:gradle-retrolambda:3.6.1'
         // classpath 'me.vigi:fat-aar-plugin:0.2.8'
@@ -20,7 +19,7 @@ buildscript {
 allprojects {
     repositories {
         jcenter()
-
+        google()
 //        maven {
 //            url "https://dl.bintray.com/atomsdk/com.atom.sdk"
 //        }
